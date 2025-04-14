@@ -1,7 +1,7 @@
 # 深層思考
 1. 把Project分成三部份： 
     第一部份：
-    1.  用SQLModel建立一個父系Class及三個子系Class，並建立SQL Database名叫ikea_furniture.db，包令以下資料:
+    1.  用SQLModel建立一個父系Class及三個子系Class，並建立SQL Database名叫ikea_furniture.db，包含以下資料:
 
     # IKEA傢俬基本Class
     -   Product ID (str) # Primary Key (Link to 子系Class的Product ID做成Index, [不可重覆])
@@ -733,5 +733,5 @@ ikea_tv_cabinets = [
 ]
 
 3.  第三部份：
-    # Brainstorming: 將此部份分支一個Shopping Cert的Python插件，以方便將來作可作不同更改
+    # Brainstorming: 將此部份分支一個Shopping Cert的Python插件，以方便將來可作不同更改
     從ikea_furniture的資料選擇出[W003, D008, TV009]這三種傢俬，並生成購物車，並把3件傢俬放進購物籃，並計算總金額
